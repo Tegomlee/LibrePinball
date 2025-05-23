@@ -1,0 +1,94 @@
+# === Build artifacts ===
+build/
+bin/
+bin-debug/
+bin-release/
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# === CMake ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+Testing/
+install_manifest.txt
+
+# === CLion (JetBrains) ===
+.idea/
+cmake-build-*/
+*.iml
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# === Backup & temp files ===
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+*.rej
+*~
+
+# === macOS ===
+.DS_Store
+
+# === Windows ===
+Thumbs.db
+desktop.ini
+
+# === GDB / LLDB ===
+.gdb_history
+.gdbinit
+.lldbinit
+
+# === Raylib submodule (KEEP the submodule, ignore build files) ===
+raylib/build/
+raylib/bin/
+raylib/lib/
+raylib/examples/
+raylib/projects/
+
+# === Optional: Ignore generated resource files ===
+*.res
+*.rc
+*.pch
+
+# === Optional: Ignore custom generated files ===
+*.generated.*
+*.autosave.*
+
+# === Optional: Your specific folders ===
+# Ignore debug/release output if custom
+out/
+dist/
+temp/
+obj/
+
+# === Ignore by extension ===
+*.pyc
+*.pdb
+*.idb
+*.tlog
+*.ilk
+*.ncb
+*.sdf
+*.suo
+*.ipch
+
+# === Git submodule metadata (don't touch .gitmodules) ===
+.git/modules/*
