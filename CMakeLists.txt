@@ -11,6 +11,11 @@ add_executable(raylib_game
         src/Application.h
         src/Systems/Time.cpp
         src/Systems/Time.h
+        src/Systems/SceneManager.cpp
+        src/Systems/SceneManager.h
+        src/Scenes/Scene.h
 )
+
+target_include_directories(raylib_game PRIVATE src)
 
 target_link_libraries(raylib_game raylib)

@@ -1,5 +1,5 @@
-#ifndef TIME_H
-#define TIME_H
+#ifndef TEGOMLEE_SYSTEMS_TIME_H
+#define TEGOMLEE_SYSTEMS_TIME_H
 
 namespace Tegomlee
 {
@@ -22,4 +22,4 @@ namespace Tegomlee
     };
 }
 
-#endif //TIME_H
+#endif //TEGOMLEE_SYSTEMS_TIME_H

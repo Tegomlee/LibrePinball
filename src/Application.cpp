@@ -3,6 +3,7 @@
 #include <iostream>
 
 #include "raylib.h"
+#include "Systems/SceneManager.h"
 
 #include "Systems/Time.h"
 
@@ -45,6 +46,7 @@ namespace Tegomlee
     void Application::PerformLogicTick()
     {
         // TODO: Update Systems Here
+        SceneManager::Get()->Process();
     }
 
     void Application::PerformRenderPass()

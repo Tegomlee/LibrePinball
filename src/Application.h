@@ -23,8 +23,6 @@ namespace Tegomlee
         int m_width_;
         int m_height_;
         std::string m_title_;
-
-        // TODO: Add systems here
     };
 }
 
